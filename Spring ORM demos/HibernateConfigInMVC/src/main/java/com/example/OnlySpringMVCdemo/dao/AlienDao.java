@@ -25,4 +25,20 @@ public class AlienDao {
 		return aliens;
 	}
 
+	@Transactional
+	public void addAlien(Alien a) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.getCurrentSession();
+		session.save(a);
+		
+	}
+
+	@Transactional
+	public Alien getOneAlien(int aid) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.getCurrentSession();
+		Alien a = session.get(Alien.class, aid);
+		return a;
+	}
+
 }
