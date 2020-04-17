@@ -2,32 +2,28 @@ package com.example.OnlySpringMVCdemo;
 
 
 
-import java.util.Arrays;
-import java.util.List;
-
-/*import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-*/import org.springframework.stereotype.Controller;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
+import com.example.OnlySpringMVCdemo.dao.AlienDao;
 import com.example.springMVCdemo.models.Alien;
+
+
+
 
 @Controller
 public class HomeController {
 	
-	@ModelAttribute
-	public void modelData(Model m) {
-		m.addAttribute("name", "Piyush");
-	}
+	
+	  @Autowired 
+	  private AlienDao dao;
+	 
+	
 	
 	@RequestMapping("/")
 	public String home() {
@@ -35,12 +31,18 @@ public class HomeController {
 		return "index";
 	}
 	
+	@ModelAttribute
+	public void modelData(Model m) {
+		m.addAttribute("name", "Piyush");
+	}
+	
+	
+	
 	
 	@GetMapping("getAliens")
 	public String getAliens(Model m) {
-		System.out.println("Inside get method");
-		List<Alien> aliens = Arrays.asList(new Alien(101, "piyus"), new Alien(102, "nadhu"));
-		m.addAttribute("result", aliens);
+		System.out.println("Inside the getAliens URL....");
+		m.addAttribute("result", dao.getAlien());
 		return "showAliens";
 		
 	}
