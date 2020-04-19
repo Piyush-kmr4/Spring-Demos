@@ -1,0 +1,57 @@
+2020-04-19 23:36:17.880  INFO 17616 --- [main] c.h.orminboot.OrminbootApplication       : Starting OrminbootApplication on LAPTOP-AAE8263N with PID 17616 (D:\Java Related\Spring MVC\Spring_Udemy\hello-world-spring-4\orminboot\target\classes started by piyus in D:\Java Related\Spring MVC\Spring_Udemy\hello-world-spring-4\orminboot)
+2020-04-19 23:36:17.887  INFO 17616 --- [main] c.h.orminboot.OrminbootApplication       : No active profile set, falling back to default profiles: default
+2020-04-19 23:36:19.185  INFO 17616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-19 23:36:19.377  INFO 17616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160ms. Found 1 JPA repository interfaces.
+2020-04-19 23:36:20.597  INFO 17616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-19 23:36:20.610  INFO 17616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-19 23:36:20.611  INFO 17616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 23:36:21.149  INFO 17616 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-19 23:36:21.155  INFO 17616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-19 23:36:21.157  INFO 17616 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3167 ms
+2020-04-19 23:36:21.418  INFO 17616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-19 23:36:21.709  INFO 17616 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-04-19 23:36:21.718  INFO 17616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-19 23:36:21.808  INFO 17616 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 23:36:21.948  INFO 17616 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-19 23:36:22.248  INFO 17616 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 23:36:22.456  INFO 17616 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-04-19 23:36:23.644  INFO 17616 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 23:36:23.660  INFO 17616 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 23:36:24.491  WARN 17616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-19 23:36:24.775  INFO 17616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 23:36:24.915  INFO 17616 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-19 23:36:25.214  INFO 17616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 23:36:25.218  INFO 17616 --- [main] c.h.orminboot.OrminbootApplication       : Started OrminbootApplication in 8.103 seconds (JVM running for 9.639)
+2020-04-19 23:36:30.414  INFO 17616 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 23:36:30.414  INFO 17616 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-19 23:36:30.430  INFO 17616 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-04-19 23:36:30.472  INFO 17616 --- [http-nio-8080-exec-2] com.hibernate.orminboot.LoggingAspect    : getAliens method called from Aspect showing AOP Before method..
+2020-04-19 23:40:13.647  INFO 15648 --- [main] c.h.orminboot.OrminbootApplication       : Starting OrminbootApplication on LAPTOP-AAE8263N with PID 15648 (D:\Java Related\Spring MVC\Spring_Udemy\hello-world-spring-4\orminboot\target\classes started by piyus in D:\Java Related\Spring MVC\Spring_Udemy\hello-world-spring-4\orminboot)
+2020-04-19 23:40:13.655  INFO 15648 --- [main] c.h.orminboot.OrminbootApplication       : No active profile set, falling back to default profiles: default
+2020-04-19 23:40:15.000  INFO 15648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-19 23:40:15.069  INFO 15648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2020-04-19 23:40:16.569  INFO 15648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-19 23:40:16.580  INFO 15648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-19 23:40:16.581  INFO 15648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-19 23:40:16.967  INFO 15648 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-19 23:40:16.973  INFO 15648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-19 23:40:16.973  INFO 15648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3221 ms
+2020-04-19 23:40:17.247  INFO 15648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-19 23:40:17.575  INFO 15648 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-04-19 23:40:17.583  INFO 15648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-19 23:40:17.653  INFO 15648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 23:40:17.796  INFO 15648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-19 23:40:18.023  INFO 15648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 23:40:18.146  INFO 15648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-04-19 23:40:18.932  INFO 15648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 23:40:18.944  INFO 15648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 23:40:19.514  WARN 15648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-19 23:40:19.733  INFO 15648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 23:40:19.855  INFO 15648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-19 23:40:20.103  INFO 15648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 23:40:20.105  INFO 15648 --- [main] c.h.orminboot.OrminbootApplication       : Started OrminbootApplication in 7.23 seconds (JVM running for 8.787)
+2020-04-19 23:40:27.717  INFO 15648 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 23:40:27.718  INFO 15648 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-19 23:40:27.756  INFO 15648 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2020-04-19 23:40:27.835  INFO 15648 --- [http-nio-8080-exec-2] com.hibernate.orminboot.LoggingAspect    : getAliens method called from Aspect showing AOP Before method..
+2020-04-19 23:40:28.012  INFO 15648 --- [http-nio-8080-exec-2] com.hibernate.orminboot.LoggingAspect    : getAliens executed successfully...
