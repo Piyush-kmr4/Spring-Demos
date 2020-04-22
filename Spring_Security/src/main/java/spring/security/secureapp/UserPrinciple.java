@@ -13,6 +13,8 @@ public class UserPrinciple implements UserDetails {
     public UserPrinciple(Users user) {
         System.out.println("Inside UserPrinciple class...");
         this.user = user;
+        System.out.println(this.getUsername());
+        System.out.println(this.getPassword());
     }
 
     @Override
@@ -36,21 +38,25 @@ public class UserPrinciple implements UserDetails {
 
     @Override
     public boolean isAccountNonExpired() {
+        System.out.println("1");
         return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
+        System.out.println("2");
         return true;
     }
 
     @Override
-    public boolean isCredentialsNonExpired() {
+    public boolean isCredentialsNonExpired()
+    {
+        System.out.println("3");
         return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return false;
+        return true;
     }
 }
